@@ -1,0 +1,58 @@
+.segment-active {
+    --background: none 
+    --border-style:none;
+    --indicator-box-shadow:none;
+}
+  
+.segment-active ion-segment-button {
+    --indicator-box-shadow: transparent !important;
+    --background:none;
+    --color:gray;
+    --background-checked: transparent !important;
+    --border-style:none;
+    --color-checked: white;
+    --indicator-color: transparent !important;
+      color: white;
+      font-size: 18px;
+      border-radius: .5rem !important;
+      padding: 2px;
+      height: 55px;
+      margin: 0;
+}
+  
+.segment-indicator {
+    background-color: transparent;
+    height: 3px;
+    width: 100%; 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.segment-active ion-segment-button.segment-button-checked .segment-indicator {
+      background-color: white;
+}
+
+.date-box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+.date-box input{
+  height: 40px;
+  border:1px solid rgb(213, 212, 212);
+  border-radius: 3px;
+}
+
+.date-buttons ion-button{
+    width: 100px;
+    min-height:33px;
+  --padding-top:0;
+  --padding-bottom:0;
+  --background:rgb(223,223,223) !important;
+  color:black
+}

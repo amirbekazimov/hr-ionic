@@ -1,0 +1,8 @@
+.small-input {
+  width: 45px;
+  height: 60px;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid rgb(205, 204, 204);
+}
